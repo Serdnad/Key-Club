@@ -15,6 +15,10 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Key_Club", "Key Club\Key_Cl
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Key Club\Key_Club\Key_Club.projitems*{ae320e27-ca50-45fc-8ba4-f15a999ae5ab}*SharedItemsImports = 4
+		Key Club\Key_Club\Key_Club.projitems*{756d6bd0-ded1-4bdf-ad48-030e70e1c8f4}*SharedItemsImports = 4
+		Key Club\Key_Club\Key_Club.projitems*{84d874ea-1526-49b6-bf72-b8731904c292}*SharedItemsImports = 4
+		Key Club\Key_Club\Key_Club.projitems*{ca82b4db-8b19-4947-aa6a-6fae63b0cc5b}*SharedItemsImports = 4
 		Key Club\Key_Club\Key_Club.projitems*{2018101d-da4c-4dbf-8235-8e93b95b0626}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
