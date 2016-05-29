@@ -21,19 +21,7 @@ namespace Key_Club
                 },
             });
 
-            this.Children.Add(new ContentPage
-            {
-                Title = "News",
-                Content = new ScrollView
-                {
-                    Content = new BoxView
-                    {
-                        Color = Color.Blue,
-                        HeightRequest = 100f,
-                        VerticalOptions = LayoutOptions.Center
-                    },
-                }
-            });
+            this.Children.Add(new NewsPage());
         }
     }
 }
