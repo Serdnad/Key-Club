@@ -10,10 +10,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventDetailsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NavigationTabs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NewsPage.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+    <Compile Include="$(MSBuildThisFileDirectory)UpcomingEventsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UserInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WelcomePage.cs" />
   </ItemGroup>
 </Project>
