@@ -5,22 +5,24 @@ using Xamarin.Forms;
 
 namespace Key_Club
 {
-    class MyInfo : ContentPage
+    class MyInfoPage : ContentPage
     {
-        public MyInfo()
+        public MyInfoPage()
         {
             Title = "My Info";
 
             Label headerLabel = new Label();
             headerLabel.Text = "My Info";
+            headerLabel.HorizontalOptions = LayoutOptions.Center;
             headerLabel.FontSize = 48;
 
             Label nameLabel = new Label();
-            nameLabel.Text = "Name: " + UserInfo.getName();
-            nameLabel.FontSize = 24;
+            nameLabel.Text = "Welcome, " + UserInfo.getName();
+            //nameLabel.HorizontalOptions = LayoutOptions.Center;
+            nameLabel.FontSize = 32;
 
             Label clubLabel = new Label();
-            clubLabel.Text = "Club: " + UserInfo.getClub();
+            clubLabel.Text = "Your current club: " + UserInfo.getClub();
             clubLabel.FontSize = 24;
 
             Label hoursLabel = new Label();
